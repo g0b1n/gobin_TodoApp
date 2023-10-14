@@ -1,0 +1,60 @@
+
+body{
+    text-align: center;
+}
+
+ol li button{
+    background-color: #198027;
+    color: rgba(255, 255,255);
+    width: 75px;
+    height: 25px;
+    margin: 5px;
+    border: solid 1px #198027;
+    border-radius: 15px;
+}
+
+ol li button:hover{
+    background-color: #0b5014;
+    font-weight: bold;
+}
+
+ol li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+h1, #addTodo{
+    color: #1d62d1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#frnd-name{
+    background-color: #1d62d150;
+    border: solid 2px #1d62d1;
+    height: 20px;
+    width: 250px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+#frnd-name:focus{
+    background: white;
+    border: solid 1px #1d62d1;
+    width: 252px;
+    height: 22px;
+}
+
+#addTodo2{
+    margin-left: 10px;
+    background-color: #1d62d1;
+    color: rgba(255, 255,255);
+    width: 100px;
+    height: 25px;
+    border: solid 1px #1d62d1;
+    border-radius: 15px;
+}
+
+#addTodo2:hover{
+    background-color: #124698;
+    font-weight: bold;
+}
